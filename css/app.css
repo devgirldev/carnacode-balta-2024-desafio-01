@@ -1,12 +1,148 @@
-.flex {
+h1{
+    margin-left :50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+input[type=text]  {
+    background-color: #E8E8E8;
+    border: 2px solid #F6F6F6;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 25px; 
+    align-items: center;   
+    margin: 10px 2px;
+}
+
+.container{    
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.flex-row {
+.idade{    
+    margin-left :-25px;
+}
+
+#button1{
+    background-color:#A5FEFE;
+    border: 5px solid #A5FEFE;
+    color: #000000;
+    border-radius: 40px;
+    width: 100%;
+    padding: 8px 55px;
+    margin-left :30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#button2{
+    background-color:#FFFFFF;
+    border: 5px solid #A5FEFE;
+    color: #000000;
+    border-radius: 40px;
+    width: 100%;
+    padding: 8px 55px;
+    font-size: 15px;
+    margin-left :30px;
+    font-weight: bold;
+}
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone-border{
+    border: 5px solid #A5FEFE;
+    border-radius: 10px;
+    
+}
+
+.icone{
+    width:95px;
+    height:95px;
+}
+
+.h1{
+    margin-left :-5px;
+}
+
+#pesquisar{
+    background-color: #E8E8E8;
+    border: 2px solid #F6F6F6;
+    border-radius: 40px;
+    width: 100%;
+    padding: 15px 40px;
+    font-size: 15px;
+    margin-left :-30px;
+}
+
+.lista{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;;
+    
+}
+
+.item{
+    width: 100%;
+    padding: 5px 40px;
+    display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+.cubo-cinza{
+    width: 15%; 
+    padding: 30px 2px;   
+    background-color: #E8E8E8;
+    border: 2px solid #F6F6F6;
+    border-radius: 10px;    
+    margin-left: 40px;
 }
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10px;
+}
+    
+ h3{
+    margin-bottom: -10px;    
+}
+
+.h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+pre{
+
+   padding-left: 180px;
+   margin-top: -20px;
+    
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
